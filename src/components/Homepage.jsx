@@ -1,8 +1,14 @@
+import profileImg from '../assets/profile.jpg';
 import React from 'react';
 
 function Homepage() {
   return (
     <section className="homepage">
+      <img
+        src={profileImg}
+        alt="Profile"
+        style={{ width: '200px', borderRadius: '50%' }}
+      />
       <div className="homepage-content">
         <h1 className="homepage-name">Nadia Iradukunda Hirwa</h1>
         <h2 className="homepage-title">Software Engineer | IoT Enthusiast | Data Analyst</h2>
