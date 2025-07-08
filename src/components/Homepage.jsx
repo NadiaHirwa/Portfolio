@@ -1,11 +1,10 @@
-import profileImg from '../assets/profile.jpg';
 import React from 'react';
 
 function Homepage() {
   return (
     <section className="homepage">
       <img
-        src={profileImg}
+        src="/Portfolio/profile.jpg"
         alt="Profile"
         style={{ width: '200px', borderRadius: '50%' }}
       />
